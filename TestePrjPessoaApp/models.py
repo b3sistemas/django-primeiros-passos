@@ -6,5 +6,5 @@ class Pessoa(models.Model):
     ativo = models.BooleanField(default=True)
 
     def __str__(self) -> str:
-        return super().__str__()
-        #return self.nome_completo
+        #return super().__str__()
+        return self.nome_completo
